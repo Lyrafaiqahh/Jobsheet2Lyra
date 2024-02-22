@@ -2,10 +2,19 @@
 
 public class Buku15 {
    
-    
-   
-     String judul, pengarang;
-     int halaman, stok, harga;
+     String judul;
+     String pengarang;
+     int halaman;
+     int stok;
+     int harga;
+
+     public Buku15(String judul, String pengarang, int halaman, int stok, int harga) {
+        this.judul = judul;
+        this.pengarang = pengarang;
+        this.halaman = halaman;
+        this.stok = stok;
+        this.harga = harga;
+     }
 
      void tampilInformasi (){
         System.out.println("Judul:" + judul);
@@ -21,7 +30,7 @@ public class Buku15 {
         if (stok <= 0) {
             stok = 0; 
         }
-        System.out.println("Berhasil!");
+        System.out.println("Berhasil!\n");
     } else {
         System.out.println("Stok tidak tersedia.");
     }
@@ -34,4 +43,6 @@ public class Buku15 {
      void gantiHarga (int hrg) {
         harga = hrg;
      }
+
+  
     }
