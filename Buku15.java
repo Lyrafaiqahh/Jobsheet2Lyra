@@ -8,7 +8,13 @@ public class Buku15 {
      int stok;
      int harga;
 
-     public Buku15(String judul, String pengarang, int halaman, int stok, int harga) {
+
+     public Buku15 () {
+    
+        
+     }
+     
+     public Buku15 (String judul, String pengarang, int halaman, int stok, int harga) {
         this.judul = judul;
         this.pengarang = pengarang;
         this.halaman = halaman;
