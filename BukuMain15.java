@@ -17,5 +17,8 @@ public class BukuMain15 {
         Buku15 bk2 = new Buku15 ("Self Reward", "Maheera Ayesha",160,29,59000);
         bk2.terjual(11);
         bk2.tampilInformasi();
+
+        Buku15 bukuLyra = new Buku15 ("Lyra cantik","mama",90,20,70000);
+        
     }
 }
